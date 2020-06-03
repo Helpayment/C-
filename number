@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int x; //定义一个整数型x
+    float y; //定义一个浮点型y
+    cout<<"Please input an int number and a float number:"<<endl;//输入一个整数和浮点数
+    cin>>x>>y; //输入x和y
+    cout<<"The int number is x= "<<x<<endl; //输出这个整数x
+    cout<<"The float number is y= "<<y<<endl;   //输出这个浮点数y
+    return 0;
+}
